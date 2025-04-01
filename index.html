@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Propiedades</title> <!--titulo principal de la pagina-->
+    <link rel="stylesheet" href="estilos-css/style.css"> <!--enlaze del archivo css-->
+</head>
+
+<body>
+
+    <header> <!--declaracion del header-->
+        <div>
+            <a href="https://www.uniagustiniana.edu.co/"><img src="estilos-css/imagenes/Logo-Uniagustiniana-768x630.png"
+                    alt="escudo"></a> <!--logotipo con hipervinculo-->
+            <nav>
+                <a href="#CSS">CSS</a>
+                <a href="#JavaScript">JavaScript</a> <!--menu de navegacion-->
+                <a href="#Tabla">Tabla de atributos CSS</a>
+            </nav>
+        </div>
+    </header>
+    <br>
+    <br>
+    <section id="CSS">
+        <h2>CSS</h2> <!--titulo primera seccion-->
+        <br>
+        <hr>
+        <br>
+        <div class="infoc">
+            <p>CSS (Cascading Style Sheets) es un lenguaje de diseño gráfico que se utiliza para definir la apariencia
+                de <!--contenido-->
+                los sitios web. Permite controlar el color, la fuente, la posición, las animaciones
+                y los efectos visuales de los elementos de una página web. Sin CSS, los sitios web serían menos
+                agradables a la vista y probablemente mucho más difíciles de navegar. </p>
+            <a href="https://developer.mozilla.org/es/docs/Web/CSS"><img class="logocss"
+                    src="estilos-css/imagenes/logoc.png" alt="csslogo"></a><!--imagen con enlace-->
+        </div>
+    </section>
+    <br>
+    <br>
+    <section id="JavaScript">
+        <h2>JavaScript</h2> <!--titulo primera seccion-->
+        <br>
+        <hr>
+        <br>
+        <div class="infoj"> <!--contenido-->
+            <p>JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como
+                orientado a objetos, ​ basado en prototipos, imperativo, débilmente tipado y dinámico. debido a su
+                código fácilmente transferible. Entre los usos más populares de Java se incluyen el software
+                empresarial, desarrollo de aplicaciones móviles, aplicaciones web, aplicaciones basadas en la nube,
+                juegos y aplicaciones de IoT.
+            </p>
+            <a href="https://developer.mozilla.org/es/docs/Web/JavaScript"><img class="logojava"
+                    src="estilos-css/imagenes/logoj.png" alt="logojavaa"></a><!--imagen con enlace-->
+        </div>
+    </section>
+    <br>
+    <br>
+    <section id="Tabla">
+        <h2>Tabla de atributos en CSS</h2> <!--titulo tercera seccion-->
+        <br>
+        <hr>
+        <br>
+        <table> <!--creacion de tabla-->
+            <thead> <!--encabezado de la tabla-->
+                <tr>
+                    <th>Nombre del atributo</th>
+                    <th>Descripcion</th>
+                    <th>Valores posible</th>
+                    <th>Ejmplo de uso</th>
+                    <th>Imagen representativa</th>
+                    <th>Fuente de informacion</th>
+                </tr>
+            </thead>
+            <tbody> <!--cuerpo de la tabla-->
+                <tr>
+                    <td>font-size</td>
+                    <td>esta propiedad establece el tamaño de la fuente.</td>
+                    <td>larger, smaller, porcentaje, longitud</td>
+                    <td>.parrafo1{<br>
+                        font-size: 1cm;
+                        }</td>
+                    <td><img class="fontsize" src="estilos-css/imagenes/fontsize1.png" alt="font"></td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-size">font-size - CSS: Cascading
+                            Style Sheets - MDN Web Docs</a></td>
+                </tr>
+                <tr>
+                    <td>border-radius</td>
+                    <td>redondea las esquinas del borde exterior de un elemento.</td>
+                    <td>border-top-left-radius,
+                        border-top-right-radius
+                    </td>
+                    <td>border-radius: 15px 50px</td>
+                    <td><img class="border" src="estilos-css/imagenes/borderradius.png" alt="border"></td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius">fborder-radius - CSS:
+                            Cascading Style Sheets - MDN Web Docs</a></td>
+                </tr>
+                <tr>
+                    <td>display</td>
+                    <td>establece los tipos de visualización interna y externa de un elemento.</td>
+                    <td>flex, block, grid, ruby</td>
+                    <td>display: flex run-in;</td>
+                    <td><img class="dis" src="estilos-css/imagenes/display.jpg" alt="display"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/display">display - CSS - MDN Web Docs</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>flexbox (display: flex;)</td>
+                    <td>método que ayuda a distribuir el espacio entre los ítems de una interfaz y mejorar las
+                        capacidades de alineación.</td>
+                    <td>flex-grow,
+                        flex-shrink,
+                        flex-basis</td>
+                    <td>flex-flow: row wrap;</td>
+                    <td><img class="flx" src="estilos-css/imagenes/flex.png" alt="flex"></td>
+                    <td><a
+                            href="https://developer.mozilla.org/es/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox">Conceptos
+                            Básicos de flexbox - CSS - MDN Web Docs</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>position</td>
+                    <td>Establece la posición de un elemento en un documento. Las propiedades superior, derecha,
+                        inferior e izquierda determinan la ubicación final de los elementos posicionados.</td>
+                    <td>sticky, absolute, relative, static</td>
+                    <td>position: sticky;</td>
+                    <td><img class="pos" src="estilos-css/imagenes/position.png" alt="position"></td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position">position - CSS: Cascading
+                            Style Sheets - MDN Web Docs</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>box-shadow</td>
+                    <td>Agrega efectos de sombra alrededor del marco de un elemento.</td>
+                    <td>px, em</td>
+                    <td>box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);</td>
+                    <td><img class="box" src="estilos-css/imagenes/box.png" alt="box"></td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow">box-shadow - CSS:
+                            Cascading Style Sheets - MDN Web Docs</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>overflow</td>
+                    <td>
+                        Establece el comportamiento deseado cuando el contenido no cabe en el cuadro de relleno del
+                        elemento (se desborda) en dirección horizontal y/o vertical.</td>
+                    <td>overflow-x,
+                        overflow-y</td>
+                    <td>overflow: hidden;</td>
+                    <td><img class="over" src="estilos-css/imagenes/overflow.png" alt="overflow"></td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/overflow">overflow - CSS: Cascading
+                            Style Sheets - MDN Web Docs</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>z-index</td>
+                    <td>
+                        indica el orden de un elemento posicionado y sus descendientes.</td>
+                    <td>auto,&lt;integer&gt;</td>
+                    <td>z-index: auto | entero | inherit</td>
+                    <td><img class="zindex" src="estilos-css/imagenes/zindex.png" alt="zindex"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/z-index">z-index - CSS - MDN Web Docs -
+                            Mozilla</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>margin y padding</td>
+                    <td>La principal diferencia entre el padding y el margin de CSS es que el padding es el espacio
+                        entre el contenido y el borde del elemento (dentro del propio elemento), mientras que el margin
+                        es el espacio alrededor del borde de un elemento.</td>
+                    <td>longitud, herencia o porcentaje</td>
+                    <td>padding-top: 30px;</td>
+                    <td><img class="mp" src="estilos-css/imagenes/margin.jpg" alt="margin"></td>
+                    <td><a href="https://www.hostinger.co/tutoriales/padding-vs-margin">Padding vs Margin: ¿cuál es la
+                            diferencia en CSS? - Hostinger</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>gap</td>
+                    <td>especifica el tamaño de las canaletas, que es el espacio entre filas y columnas dentro de la
+                        cuadrícula, flexión y diseño de múltiples columnas.</td>
+                    <td>px</td>
+                    <td>gap: 30px 20px;</td>
+                    <td><img class="gp" src="estilos-css/imagenes/css-gap.jpg" alt="gap"></td>
+                    <td><a href="https://www.bisign.es/css/gap/">Como utilizar gap en CSS - BI/SIGN</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>border-collapse</td>
+                    <td>
+                        Establece si las celdas dentro de una tabla tienen bordes compartidos o separados.</td>
+                    <td>collapse, separate</td>
+                    <td>border-collapse: collapse;</td>
+                    <td><img class="collapse" src="estilos-css/imagenes/border-collapse1.png" alt="collapse"></td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse">border-collapse - CSS: Cascading Style Sheets | MDN</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>table-layout</td>
+                    <td>establece el algoritmo utilizado para diseñar las celdas, filas y columnas de una tabla</td>
+                    <td>auto, fixed</td>
+                    <td>table-layout: fixed;</td>
+                    <td><img class="layout" src="estilos-css/imagenes/table-16.png" alt="layout"></td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/table-layout">table-layout - CSS: Cascading Style Sheets - MDN Web Docs</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>transition</td>
+                    <td>es una abreviatura de propiedad de transición, duración de transición, función de tiempo de transición, retraso de transición y comportamiento de transición.</td>
+                    <td>transition-behavior, transition-timing-function</td>
+                    <td>transition: margin-right 4s;</td>
+                    <td><img class="trans" src="estilos-css/imagenes/trans.jpg" alt="trans"></td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/table-layout">transition - CSS: Cascading Style Sheets - MDN Web Docs</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+*{                                  /*selector universal*/
+    padding: 0;                 /*todos los elementos de la pagina no tendran padding ni margen*/                                     
+    margin: 0;    
+    font-family: Arial, Helvetica, sans-serif;       /*tipo de fuente*/                   
+}
+
+header{
+    background-color: #232323;         /*fondo el header*/
+    display: flex;                                     /*permite editar orientacion*/
+    color: white;                                    /*colo de la fuente*/
+    justify-content: center;                           /*alinean todos los objetos al centro*/
+    align-items: center;
+    height: 100px;                                      /*tamaño del header*/
+}
+/*elementos del header*/
+div{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 500px;                                       /*distancia entre el logotipo y el menu*/
+}
+
+nav{
+    display: flex;
+    gap: 50px;                                         /*distancia entre las palabras del logotipo*/
+}
+/*menu de navegacion*/
+a{
+    text-decoration: none;                            /*elimina la linea debajo de las palabras*/
+    text-transform: uppercase;                        /*transforma las palabras en mayuscula*/
+    color: white;
+    font-weight: 700;                                 /*ancho de las palabras*/
+    font-size: 20px;                                    /*tamaño de las palabras*/
+    padding: 10px;                                      /*tamaño del recuadro*/
+    transition: background-color 0.4s;                    /*tiempo de transicion para el cambio del color*/
+}
+
+a:hover{
+    background-color: #444242f0;                        /*cuando el cursor este sobre el menu, este cambiara*/
+    transform: scale(1.1);
+}
+
+img:hover{
+    background-color: rgba(228, 228, 132, 0.948);     /*cambio de color del logotipo*/
+    transform: scale(1.2);           /*cambio de tamaño*/
+}
+
+img{
+    max-width: 100%;
+    width: 90px;                                         /*edicion del logotipo*/
+    height: 90px;
+}
+
+h2{  /*edicion etiqueta h2*/
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+
+hr{ /*edicion etiqueta hr*/
+    margin-left: 0%;
+    width: 50%;   /*tamaño de la linea*/
+}
+
+p{ /*edicion etiqueta hr*/
+    margin-left: 30px;
+    margin-right: none;
+    text-align: left;
+    font-size: 17px;  /*tamaño texto*/
+}
+
+.infoc{ /*edicion de la primera seccion*/
+    display: flex;    
+    background-color: azure;
+}
+
+.logocss{  /*imagen css*/
+
+    width: 500px;
+    height: 120px;
+    margin-right: 20PX;
+}
+
+.logocss:hover{
+    background-color: rgba(138, 224, 221, 0.948);     /*cambio de color del logotipo*/
+    
+}
+
+.infoj{ /*edicionsegunda seccion*/
+    background-color: rgb(255, 229, 229); 
+    display: flex;
+}
+
+.logojava{  /*imagen java*/
+    width: 500px;
+    height: 120px;
+    margin-right: 20px;  /*distancia del margen izquierdo*/
+}
+
+.logojava:hover{
+    background-color: rgb(227, 203, 166);   /*cambio de color logotipo java*/
+}
+
+table{
+    justify-content: center; /*tabla centrada*/
+    margin-left: 12px;
+    color: white;
+    font-size: 16px;
+    table-layout: fixed;   /*arregla cualquier error con la tabla*/
+    border-collapse: collapse; /*border compartidos*/
+    background-color: #232323f4;
+}
+
+thead{
+    background-color: #1a1a1a; /*color del encabezado*/
+}
+
+th{
+    padding: 20px 15px;  /*distancia de la celda*/
+    text-transform: uppercase;
+}
+
+td{
+    padding: 15px; /*distancia de la celda*/
+    border-bottom: solid 2px #1a1a1a; /*borde horizontal de la tabla*/
+}
+
+tbody tr{
+    cursor: pointer; /*transforma el cursor en modo seleccion*/
+}
+
+tbody tr:hover{
+    background-color: #232323; /*cambia el color al pasar el cursor*/
+}
+
+tbody a{
+    font-size: 15px;
+    border: 2px solid transparent;   /*relleno transparente*/ 
+    text-decoration:underline ; /*agrega una linea debajo del link*/
+    color: aqua;
+    padding: 5px;  /*distancia entre el link y el color*/
+    transition: 0.5s ease;
+
+}
+
+tbody a:hover{
+    transition: 0.5s ease;
+    border: 2px solid aquamarine; /*el link tendra un cuadro azul*/
+    background-color:  #232323f4;
+}
+
+tbody img{
+    width: auto; /*las imagenes se escalaran segun su tamaño orignal*/
+    height: auto;
+}
+
+.layout{
+    width: 150px;    /*se corrigen imagenes sobredimensionadas*/
+}
+
+.collapse{
+    width: 250px;
+}
